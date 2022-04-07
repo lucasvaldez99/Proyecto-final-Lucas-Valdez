@@ -1,0 +1,324 @@
+* {
+    margin: 0px;
+    padding: 0px
+
+}
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    background-color: rgb(138, 134, 134);
+    
+
+}
+
+
+/*header*/
+
+
+header {
+background-color: #868282;
+    border-bottom: #298f4d solid 2px;
+    position: sticky;
+    top: 0;
+}
+
+/* logo o titulo */
+h1 {
+color: rgb(25, 23, 23);
+
+font-size: 40px;
+
+}
+
+.tituloprincipal {
+    margin-left: 1rem;
+}
+
+
+.logo span {
+    transition: .5s linear;
+}
+
+.logo:hover span {
+
+    margin-right: 8px;
+}
+.logo:hover span:nth-child(1) {
+    margin-left: 20px;
+}
+
+.logo:hover span {
+    color: #fff;
+    /* sombre horizontal - vertical - blur - color */
+    text-shadow: 0 0 100px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+/* fin del titulo o logo */
+
+
+/* menu del header */
+
+
+
+#menu a {
+    background-color: #111010;
+    color: #f3ecec;
+    text-decoration: none;
+    border-left: 4px solid #29a962;
+    }
+
+
+
+    #menu ul {
+        list-style: none;
+        margin: 16px;
+        padding: 0;
+        }
+
+
+
+        #menu li {
+        display: inline-block;
+        }
+
+
+
+
+/* fin del menu del header */
+
+
+
+
+
+
+
+
+
+/* imagenes principales */
+
+#imagenesprincipales {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.astro{
+    width: 18rem;
+    height: 30rem;
+    
+}
+
+.astronauta p {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.novedades {
+    width: 18rem;
+    height: 30rem;
+    margin-top: 20%;
+}
+.novedadesdiv p {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.tecnico {
+    width: 18rem;
+    height: 30rem;
+    margin-top: 40%;
+}
+.tecnicodiv p {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* fin de imagenes del principales*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* servicios */
+
+.titulosoluciones p {
+
+    
+    font-size: 3rem;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulosoluciones {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    background-color: #298f4d;
+}
+
+
+
+
+
+
+.logito1 {
+width: 13rem;
+}
+
+.titulo1 {
+    font-size: 20px;
+
+    
+}
+
+.textologo1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*fin del sector 1*/
+
+
+
+
+/*sector2*/
+.logito2 {
+    
+    width: 13rem;
+}
+
+
+    
+    
+
+
+
+/*fin de sector 2 */
+
+
+
+
+/*sector3 */
+
+.logito3 {
+    width: 13rem;
+}
+
+
+
+
+/*fin sector 3 */
+
+/*fin de la seccion (servicios)*/
+
+
+/*seccion tienda */
+
+
+
+
+
+.infotienda {
+    
+    border-bottom: 2px solid grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    
+
+}
+
+.imageninfo {
+    width: 13rem;
+padding-left: 230px;
+}
+
+.findetienda{
+    padding: 90px 350px 0px 350px;
+}
+
+.cajaderedes {
+    padding: 50px 0px 0px 120px ;
+}
+
+.botonf1 {
+    padding: 10px;
+    background-color: rgb(21, 91, 197);
+    margin-right: 100px;
+}
+.botoni1 {
+    
+    background-color: rgb(177, 57, 147);
+    
+    text-decoration: none;
+}
+
+
+/*fin seccion tienda */
+
+/*maps*/
+
+
+
+
+/*fin maps*/
+
+
+/*footer*/
+
+.dudas {
+    
+border-bottom: 3px solid grey;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.redesli li {
+    font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+
+
+} 
+.redesli {
+
+bottom: 26px;
+
+}
+
+.seguinos {
+    display: inline;
+}
+/*fin del footer*/
+
+/* fin de imagenes principales */
+
+
+
+
+
+/* Tienda.html */
+
+
+
+
+/* Fin tienda.html */
+

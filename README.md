@@ -1,8 +1,8 @@
 # Proyecto-final-Lucas-Valdez
-<h1 align="center">Holis Lucas Nicolas Valdez</h1>
-<h3 align="center">Un apasionado desarrollador frontend de India</h3>
+<h1 align="center">Holis soy Lucas Nicolas Valdez</h1>
+<h3 align="center">Un apasionado futuro desarrollador frontend de Argentina</h3>
 
-- 🔭 Actualmente estoy trabajando en **curso de desarrollo web**
+- 🔭 Actualmente estoy trabajando en un **curso de desarrollo web**
 
 - 📫 Cómo contactarme **lucasvaldez99@gmail.com**
 

@@ -180,6 +180,19 @@ font-size: 40px;
 
 /* servicios */
 
+
+/* servicios container */
+
+
+
+
+
+
+
+
+    
+/* titulo de soluciones */
+
 .titulosoluciones p {
 
     
@@ -188,14 +201,9 @@ font-size: 40px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.titulosoluciones {
-    display: flex;
-    justify-content: center;
-    padding: 1px;
-    
-}
 
 
+/* fin del titulo de soluciones */
 
 
 
@@ -266,28 +274,33 @@ width: 13rem;
 }
 
 .imageninfo {
-    width: 13rem;
-padding-left: 230px;
+  
+width: 10rem;
 }
 
 .findetienda{
-    padding: 90px 350px 0px 350px;
+    display: grid ;
+    grid-template-columns: 1fr;
+    justify-items: center
 }
 
-.cajaderedes {
-    padding: 50px 0px 0px 120px ;
+.findetienda p {
+    padding: 0 5% 0 5%;
 }
+
 
 .botonf1 {
     padding: 10px;
     background-color: rgb(21, 91, 197);
-    margin-right: 100px;
+    text-decoration: none;
 }
 .botoni1 {
     
     background-color: rgb(177, 57, 147);
     
+    padding: 10px;
     text-decoration: none;
+
 }
 
 
@@ -295,7 +308,10 @@ padding-left: 230px;
 
 /*maps*/
 
-
+.maps {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
 
 
 /*fin maps*/
@@ -326,7 +342,7 @@ bottom: 26px;
 }
 
 .seguinos {
-    display: inline;
+    
 }
 /*fin del footer*/
 

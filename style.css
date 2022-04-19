@@ -426,17 +426,36 @@ bottom: 26px;
 }
 
 
+.imagenespasoapaso  {
+width: 50%;
+
+}
 
 
+.segundocontenedor{
+    display: flex;
+    
+}
 
+.segundoh2 {
+    text-align: center;
+    margin: 5rem;
+}
 
+.texto3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
 
+.contenedoresdepasos {
+    margin-bottom: 10rem;
+}
+ 
 
-
-
-
-
-
+.h3numeracion {
+    text-align: center;
+}
 
 
 

@@ -14,7 +14,7 @@ body {
     
 
 }
-.concha {
+.supercontenedor {
     padding: 0;
     margin: 0;
     margin-left: 15%;
@@ -46,7 +46,8 @@ font-size: 40px;
 }
 
 .tituloprincipal {
-    margin-left: 1rem;
+    
+    display: block;
 }
 
 
@@ -103,6 +104,18 @@ font-size: 40px;
 
 /* fin del menu del header */
 
+/* media para el header */
+@media screen and (max-width: 410px) {
+    .tituloprincipal {
+        background-color: blueviolet;
+
+    }
+    #menu {
+        position: sticky;
+        top: 0;
+    }
+}
+    
 
 
 
@@ -115,15 +128,14 @@ font-size: 40px;
 
 .imagenesprincipales {
 
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 8%;
-    margin-top: 5%;
-    margin-bottom: 5%; */
+    
     display: flex;
     justify-content: center;
     justify-content: space-between;
     margin-top: 50px;
+    
+        flex-wrap: wrap;
+        
 }
 
     .manu p {
@@ -169,6 +181,8 @@ font-size: 40px;
 
 
 
+    
+
 
 /* fin de imagenes del principales*/
 
@@ -191,14 +205,9 @@ font-size: 40px;
 
 /* servicios container */
 
-.servicioscontainer {
-    margin: 0rem 1rem 10rem 1rem;
-    background-color: rgb(45, 138, 138);
-    padding: 1rem 10rem 50rem 10rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem 10rem 10rem 10rem ;
-}
+    .serviciosconteiner {
+        background-color: #04b341;
+    }
 
 
 
@@ -216,8 +225,8 @@ font-size: 40px;
 
     background-color: blueviolet;
     
-    display: inline;
-    font-size: 2rem;
+    
+    font-size: 220%;
     text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -227,18 +236,23 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 /* fin del titulo de soluciones */
 
 
-
+.divcontenedordesectores {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
 
 /* sector 1 */
 
 .sector1 {
     width: 90%;
-    height: 25rem;
+    height: 300%;
     
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-items: auto;
 }
 
 
@@ -269,7 +283,9 @@ width: 13rem;
 
 
 /*seccion tienda */
+    #Tienda {
 
+    }
 
 
     .secciontienda {
@@ -278,6 +294,14 @@ width: 13rem;
         margin-bottom: 5rem;
         border-bottom: solid grey 2px;
         padding-bottom: 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagentienda {
+        width: 40%;
+        height: auto;
+        
     }
 
 
@@ -286,7 +310,7 @@ width: 13rem;
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
     border: solid green 3px;
-
+    text-align: center;
 }
 
 
@@ -368,6 +392,7 @@ border-bottom: 3px solid grey;
 font-family: Arial, Helvetica, sans-serif;
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 }
 .dudas p {
     font-size: medium;
@@ -380,6 +405,7 @@ justify-content: center;
     width: 80px;
     text-align: center;
     border: #111010 solid 1px;
+    margin-bottom: 5rem;
 }
 
 
@@ -484,5 +510,3 @@ width: 50%;
 
 
 
-
-/* fin de media */

@@ -1,0 +1,510 @@
+* {
+    margin: 0px;
+    padding: 0px
+
+}
+
+
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    background-color: rgb(58, 121, 113);
+    
+
+}
+.supercontenedor {
+    padding: 0;
+    margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+
+}
+
+/*header*/
+
+
+header {
+background-color: #327467;
+    border-bottom: #298f4d solid 2px;
+    
+}
+
+.divprincipal {
+    z-index: 3;
+}
+
+
+/* logo o titulo */
+h1 {
+color: rgb(25, 23, 23);
+
+font-size: 40px;
+
+}
+
+.tituloprincipal {
+    
+    display: block;
+}
+
+
+.logo span {
+    transition: .5s linear;
+}
+
+.logo:hover span {
+
+    margin-right: 8px;
+}
+.logo:hover span:nth-child(1) {
+    margin-left: 20px;
+}
+
+.logo:hover span {
+    color: #fff;
+    /* sombre horizontal - vertical - blur - color */
+    text-shadow: 0 0 100px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff;
+}
+
+/* fin del titulo o logo */
+
+
+/* menu del header */
+
+
+
+#menu a {
+    background-color: #111010;
+    color: #f3ecec;
+    text-decoration: none;
+    border-left: 4px solid #29a962;
+    }
+
+
+
+    #menu ul {
+        list-style: none;
+        margin: 16px;
+        padding: 0;
+        }
+
+
+
+        #menu li {
+        display: inline-block;
+        }
+
+
+
+
+/* fin del menu del header */
+
+/* media para el header */
+@media screen and (max-width: 410px) {
+    .tituloprincipal {
+        background-color: blueviolet;
+
+    }
+    #menu {
+        position: sticky;
+        top: 0;
+    }
+}
+    
+
+
+
+
+
+
+
+
+/* imagenes principales */
+
+.imagenesprincipales {
+
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+        flex-wrap: wrap;
+        
+}
+
+    .manu p {
+        text-align: center;
+        
+    }
+
+.imageprinci{
+    
+    width: 18rem;
+    height: 30rem;
+}
+
+.imageprinci:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.astronauta p {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+.novedades:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.novedadesdiv p {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.imageprinci:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+
+
+    
+
+
+/* fin de imagenes del principales*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* servicios container */
+
+    .serviciosconteiner {
+        background-color: #04b341;
+    }
+
+
+
+/* fin se servicios container */
+
+
+
+    
+/* titulo de soluciones */
+
+
+
+
+.titulosoluciones p {
+
+    background-color: blueviolet;
+    
+    
+    font-size: 220%;
+    text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* fin del titulo de soluciones */
+
+
+.divcontenedordesectores {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+/* sector 1 */
+
+.sector1 {
+    width: 90%;
+    height: 300%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: auto;
+}
+
+
+.logito1 {
+width: 13rem;
+
+}
+
+.titulo1 {
+    font-size: 20px;
+
+    
+}
+
+.textologo {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/*fin del sector 1*/
+
+
+
+
+
+
+/*fin de la seccion (servicios)*/
+
+
+/*seccion tienda */
+
+
+
+    .secciontienda {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+        border-bottom: solid grey 2px;
+        padding-bottom: 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagentienda {
+        width: 40%;
+        height: auto;
+        
+    }
+
+
+.infotienda p{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    border: solid green 3px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imageninfo {
+
+width: 10rem;
+}
+
+.findetienda{
+    display: grid ;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+}
+
+.findetienda p {
+    padding: 0 5% 0 5%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.cajaderedes {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+.botonf1 {
+    padding: 10px 20px;
+    background-color: rgb(21, 91, 197);
+    text-decoration: none;
+    
+}
+.botoni1 {
+    
+    background-color: rgb(177, 57, 147);
+    
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+
+/*fin seccion tienda */
+
+/*maps*/
+
+.maps {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+/*fin maps*/
+
+
+/*footer*/
+
+.dudas {
+    
+border-bottom: 3px solid grey;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.dudas p {
+    font-size: medium;
+}
+
+    .wp {
+    background-color: #29a962;
+    text-decoration: none;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    border: #111010 solid 1px;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.redesli li {
+    font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+
+
+} 
+.redesli {
+
+bottom: 26px;
+
+}
+
+
+
+
+
+
+/* fin de footer */
+
+
+
+
+
+
+
+
+
+
+
+
+/* pagina de SERVICIOS */
+
+
+
+.primercontenedor {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+.primercontenedor .puerta{
+    border-top: brown solid 2px;
+
+}
+
+
+.imagenespasoapaso  {
+width: 50%;
+
+}
+
+
+.segundocontenedor{
+    display: flex;
+    
+}
+
+.segundoh2 {
+    text-align: center;
+    margin: 5rem;
+}
+
+.texto3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contenedoresdepasos {
+    margin-bottom: 10rem;
+}
+ 
+
+.h3numeracion {
+    text-align: center;
+}
+
+
+
+
+
+
+/* FIN DE LA PAG DE SERVICIOS  */
+
+
+
+
+

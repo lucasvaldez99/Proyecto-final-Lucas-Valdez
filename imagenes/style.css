@@ -44,12 +44,12 @@ h1 {
 
 .tituloprincipal {
     
-    display: block;
+    
 }
 
 
 h1 span {
-    transition: .5s linear;
+    
 }
 
 h1:hover span {

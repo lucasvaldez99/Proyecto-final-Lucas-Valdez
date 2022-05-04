@@ -27,21 +27,18 @@ body {
 
 
 header {
-background-color: #327467;
-    border-bottom: #298f4d solid 2px;
+
     
 }
 
 .divprincipal {
-    z-index: 3;
+    
 }
 
 
 /* logo o titulo */
 h1 {
-color: rgb(25, 23, 23);
 
-font-size: 40px;
 
 }
 
@@ -51,19 +48,19 @@ font-size: 40px;
 }
 
 
-.logo span {
+h1 span {
     transition: .5s linear;
 }
 
-.logo:hover span {
+h1:hover span {
 
     margin-right: 8px;
 }
-.logo:hover span:nth-child(1) {
+h1:hover span:nth-child(1) {
     margin-left: 20px;
 }
 
-.logo:hover span {
+h1:hover span {
     color: #fff;
     /* sombre horizontal - vertical - blur - color */
     text-shadow: 0 0 100px #fff,

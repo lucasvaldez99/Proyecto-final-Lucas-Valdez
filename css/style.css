@@ -1,0 +1,23 @@
+body {
+  background-color: #FFEF82;
+}
+
+header {
+  background-color: #327467;
+  border-bottom: #298f4d solid 2px;
+}
+header .divprincipal {
+  z-index: 3;
+}
+header .divprincipal .tituloprincipal {
+  display: block;
+}
+header .divprincipal .tituloprincipal h1 {
+  color: rgb(25, 23, 23);
+  font-size: 40px;
+}
+header .divprincipal .tituloprincipal h1 span {
+  transition: 0.5s linear;
+}
+
+/*# sourceMappingURL=style.css.map */

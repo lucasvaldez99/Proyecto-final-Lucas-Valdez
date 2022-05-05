@@ -1,3 +1,18 @@
 body{
         background-color: #FFEF82;
 }
+*{
+        margin: 0px;
+        padding: 0px
+
+}
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.supercontenedor {
+        padding: 0;
+        margin: 0;
+        margin-left: 15%;
+        margin-right: 15%;
+}

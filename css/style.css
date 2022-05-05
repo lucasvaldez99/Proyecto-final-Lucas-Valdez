@@ -1,5 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 body {
   background-color: #FFEF82;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*google fonts*/
+.supercontenedor {
+  padding: 0;
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 header {
@@ -17,6 +32,9 @@ header .divprincipal .tituloprincipal h1 {
   color: rgb(25, 23, 23);
   font-size: 40px;
 }
+header .divprincipal .tituloprincipal h1:hover span:nth-child(1) {
+  margin-left: 20px;
+}
 header .divprincipal .tituloprincipal h1 span {
   transition: 0.5s linear;
 }
@@ -26,23 +44,6 @@ header .divprincipal .tituloprincipal h1 span:hover {
   /* sombre horizontal - vertical - blur - color */
   text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
-header .divprincipal .tituloprincipal h1 span:hover span:nth-child(1) {
-  margin-left: 20px;
-}
-header #menu ul {
-  list-style: none;
-  margin: 16px;
-  padding: 0;
-}
-header #menu ul li {
-  display: inline-block;
-}
-header #menu ul li a {
-  background-color: #111010;
-  color: #f3ecec;
-  text-decoration: none;
-  border-left: 4px solid #29a962;
-}
 @media screen and (max-width: 410px) {
   header .tituloprincipal {
     background-color: blueviolet;
@@ -51,6 +52,128 @@ header #menu ul li a {
     position: sticky;
     top: 0;
   }
+}
+
+#menu ul {
+  list-style: none;
+  margin: 16px;
+  padding: 0;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  background-color: #111010;
+  color: #f3ecec;
+  text-decoration: none;
+  border-left: 4px solid #29a962;
+}
+
+.imagenesprincipales {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.imagenesprincipales .imagenx3 .imagenprinci {
+  width: 18rem;
+  height: 30rem;
+}
+.imagenesprincipales .imagenx3 .imagenprinci:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.imagenesprincipales .imagenx3 .imagenprinci .textimg {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+}
+
+/*seccion de soluciones*/
+.servicioscontainer {
+  background-color: #04b341;
+}
+.servicioscontainer .titulosoluciones p {
+  background-color: #531d65;
+  font-size: 220%;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.servicioscontainer .divcontenedordesectores {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.servicioscontainer .divcontenedordesectores .sector1 {
+  width: 90%;
+  height: 300%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-items: auto;
+}
+.servicioscontainer .divcontenedordesectores .sector1 .titulo1 {
+  font-size: 20px;
+}
+.servicioscontainer .divcontenedordesectores .sector1 .textologo {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.servicioscontainer .divcontenedordesectores .sector1 .logito1 {
+  width: 13rem;
+}
+
+/*seccion de las tiendas*/
+#Tienda .secciontienda {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  border-bottom: solid grey 2px;
+  padding-bottom: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#Tienda .secciontienda .imagentienda {
+  width: 40%;
+  height: auto;
+}
+#Tienda .secciontienda .infotienda p {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  border: solid green 3px;
+  text-align: center;
+}
+#Tienda .findetienda {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+#Tienda .findetienda .cajaderedes {
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+}
+#Tienda .findetienda .cajaderedes .botoni1 {
+  background-color: rgb(177, 57, 147);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+#Tienda .findetienda .cajaderedes .botonf1 {
+  padding: 10px 20px;
+  background-color: rgb(21, 91, 197);
+  text-decoration: none;
+}
+#Tienda .findetienda p {
+  padding: 0 5% 0 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#Tienda .findetienda .imageninfo {
+  width: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */

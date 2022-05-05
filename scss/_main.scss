@@ -1,0 +1,139 @@
+.imagenesprincipales {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+        flex-wrap: wrap;
+
+                .imagenx3{ 
+
+                    .imagenprinci{
+                        width: 18rem;
+                        height: 30rem;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: all 2s;
+                        }
+                    .textimg {
+                        text-align: center;
+                        font-size: 30px;
+                        font-family: 'Roboto Mono', monospace;
+                    }
+                    }
+                }
+                        
+}
+
+            /*seccion de soluciones*/
+
+    .servicioscontainer{
+        background-color: #04b341;
+
+                        .titulosoluciones{
+                                        p{
+                                            background-color: #531d65;
+                                            font-size: 220%;
+                                            text-align: center;
+                                            font-family: Georgia, 'Times New Roman', Times, serif;
+
+                                        }
+                        }
+                        .divcontenedordesectores{
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-items: center;
+                                                .sector1{
+                                                    width: 90%;
+                                                    height: 300%;
+    
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                    align-items: center;
+                                                    justify-items: auto;                                               
+                                                        .titulo1{
+                                                            font-size: 20px;
+                                                        }
+                                                        .textologo{
+                                                            font-size: 20px;
+                                                            font-family: Georgia, 'Times New Roman', Times, serif;
+                                                            text-align: center;                                                     
+
+                                                        }
+                                                        .logito1{
+                                                            width: 13rem;
+                                                        }
+
+                                                }
+                        }
+    }
+
+
+
+                        /*seccion de las tiendas*/
+                        #Tienda{
+                                .secciontienda{
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 5rem;
+                                    border-bottom: solid grey 2px;
+                                    padding-bottom: 5rem;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+
+                                                .imagentienda{
+                                                    width: 40%;
+                                                    height: auto;
+
+                                                }
+
+                                                .infotienda{
+
+                                                            p{
+                                                                font-family: 'Roboto', sans-serif;
+                                                                font-size: 23px;
+                                                                border: solid green 3px;
+                                                                text-align: center;
+                                                            }
+
+                                                }
+                                }
+
+                                .findetienda{
+                                                    display: grid ;
+                                                    grid-template-columns: 1fr;
+                                                    justify-items: center;
+
+                                            .cajaderedes{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    width: 15rem;
+
+                                                .botoni1{
+                                                    background-color: rgb(177, 57, 147);
+    
+                                                    padding: 10px 20px;
+                                                    text-decoration: none;
+                                                }
+                                                .botonf1{
+                                                    padding: 10px 20px;
+                                                    background-color: rgb(21, 91, 197);
+                                                    text-decoration: none;
+                                                }
+                                            }
+                                            p{
+                                                padding: 0 5% 0 5%;
+                                                text-align: center;
+                                                font-size: 2rem;
+                                                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;                                          
+                                            }
+                                            .imageninfo{
+                                                width: 10rem;
+
+                                            }
+
+                                }
+                        }
+                                                                         

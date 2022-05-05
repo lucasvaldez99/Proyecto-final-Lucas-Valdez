@@ -1,0 +1,55 @@
+footer {
+        .dudas{
+            border-bottom: 3px solid grey;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+                p{
+                    font-size: medium;
+                }
+                .wp{
+                    background-color: #29a962;
+                    text-decoration: none;
+                    height: 25px;
+                    width: 80px;
+                    text-align: center;
+                    border: #111010 solid 1px;
+                    margin-bottom: 5rem;                
+                }
+        }
+        .logo{
+            &:hover span:nth-child(1){
+                margin-left: 20px;}
+
+            span {
+                transition: .5s linear;
+
+                &:hover{
+                        margin-right: 8px;
+                        color: #fff;
+                        /* sombre horizontal - vertical - blur - color */
+                        text-shadow: 0 0 100px #fff,
+                        0 0 20px #fff,
+                        0 0 40px #fff;
+                }
+        }
+        .seguinos{
+                    font-size: 5rem;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .redesli{
+            bottom: 26px;
+                    li{
+                        
+                        a{
+                            font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+display: inline;
+
+                        }
+                    }
+        }
+}
+}

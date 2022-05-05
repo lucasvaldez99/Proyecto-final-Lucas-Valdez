@@ -91,9 +91,6 @@ header .divprincipal .tituloprincipal h1 span:hover {
 }
 
 /*seccion de soluciones*/
-.servicioscontainer {
-  background-color: #04b341;
-}
 .servicioscontainer .titulosoluciones p {
   background-color: #531d65;
   font-size: 220%;
@@ -104,6 +101,7 @@ header .divprincipal .tituloprincipal h1 span:hover {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  justify-content: center;
 }
 .servicioscontainer .divcontenedordesectores .sector1 {
   width: 90%;
@@ -155,6 +153,7 @@ header .divprincipal .tituloprincipal h1 span:hover {
   display: flex;
   justify-content: space-between;
   width: 15rem;
+  margin-bottom: 3rem;
 }
 #Tienda .findetienda .cajaderedes .botoni1 {
   background-color: rgb(177, 57, 147);
@@ -174,6 +173,50 @@ header .divprincipal .tituloprincipal h1 span:hover {
 }
 #Tienda .findetienda .imageninfo {
   width: 10rem;
+}
+
+footer .dudas {
+  border-bottom: 3px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .dudas p {
+  font-size: medium;
+}
+footer .dudas .wp {
+  background-color: #29a962;
+  text-decoration: none;
+  height: 25px;
+  width: 80px;
+  text-align: center;
+  border: #111010 solid 1px;
+  margin-bottom: 5rem;
+}
+footer .logo:hover span:nth-child(1) {
+  margin-left: 20px;
+}
+footer .logo span {
+  transition: 0.5s linear;
+}
+footer .logo span:hover {
+  margin-right: 8px;
+  color: #fff;
+  /* sombre horizontal - vertical - blur - color */
+  text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+footer .logo .seguinos {
+  font-size: 5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer .logo .redesli {
+  bottom: 26px;
+}
+footer .logo .redesli li a {
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */

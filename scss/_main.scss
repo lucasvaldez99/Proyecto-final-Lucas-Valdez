@@ -29,9 +29,10 @@
             /*seccion de soluciones*/
 
     .servicioscontainer{
-        background-color: #04b341;
+        
 
                         .titulosoluciones{
+                            
                                         p{
                                             background-color: #531d65;
                                             font-size: 220%;
@@ -44,6 +45,7 @@
                                                 display: flex;
                                                 flex-direction: column;
                                                 justify-items: center;
+                                                justify-content: center;
                                                 .sector1{
                                                     width: 90%;
                                                     height: 300%;
@@ -110,6 +112,7 @@
                                                     display: flex;
                                                     justify-content: space-between;
                                                     width: 15rem;
+                                                    margin-bottom: 3rem;
 
                                                 .botoni1{
                                                     background-color: rgb(177, 57, 147);
@@ -135,5 +138,4 @@
                                             }
 
                                 }
-                        }
-                                                                         
+                        }                                                     

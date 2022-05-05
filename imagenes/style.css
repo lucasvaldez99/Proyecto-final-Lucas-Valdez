@@ -52,20 +52,16 @@ h1 span {
     
 }
 
-h1:hover span {
+h1: span {
 
-    margin-right: 8px;
+    
 }
 h1:hover span:nth-child(1) {
-    margin-left: 20px;
+    
 }
 
 h1:hover span {
-    color: #fff;
-    /* sombre horizontal - vertical - blur - color */
-    text-shadow: 0 0 100px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff;
+    
 }
 
 /* fin del titulo o logo */
@@ -135,7 +131,7 @@ h1:hover span {
         
 }
 
-    .manu p {
+    .imagenx3 p {
         text-align: center;
         
     }

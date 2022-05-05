@@ -11,12 +11,54 @@ header{
                                 color: rgb(25, 23, 23);
                                 font-size: 40px;
 
+
                     span {
                         transition: .5s linear;
+
+                        &:hover{
+                                margin-right: 8px;
+                                color: #fff;
+                                /* sombre horizontal - vertical - blur - color */
+                                text-shadow: 0 0 100px #fff,
+                                0 0 20px #fff,
+                                0 0 40px #fff;
+                        }
+                        &:hover span:nth-child(1){
+                                margin-left: 20px;
+                        }
                     }
         }
         }                              
         }
         
+        #menu {
+                ul {
+                        list-style: none;
+                        margin: 16px;
+                        padding: 0;
+                        li {
+                                display: inline-block;
+                                        a{
+                                                background-color: #111010;
+                                                color: #f3ecec;
+                                                text-decoration: none;
+                                                border-left: 4px solid #29a962;
+                                        
 
+                                        
+                                }
+                        }
+                }
+        }    
+        /* media para el header */
+@media screen and (max-width: 410px) {
+        .tituloprincipal {
+            background-color: blueviolet;
+    
+        }
+        #menu {
+            position: sticky;
+            top: 0;
+        }
+    }
 }

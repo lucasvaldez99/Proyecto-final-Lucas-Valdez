@@ -1,0 +1,54 @@
+/* pagina de SERVICIOS */
+main{
+        .primercontenedor {
+                
+                text-align: center;
+                                .puerta{
+                                        border-top: brown solid 2px;
+
+                                }
+                                h2{
+
+                                }
+                                p{
+
+                                }
+        }
+
+        .segundoh2{
+                text-align: center;
+                margin: 5rem;
+
+        }
+
+
+        .segundocontenedor {
+                display: flex;
+                                .contenedordepasos {
+                                        margin-bottom: 10rem;
+                                                        .imagenespasoapaso {
+                                                                width: 50%;
+
+                                                        }
+                                                        .h3numeracion {
+                                                                text-align: center;
+
+                                                        }
+                                                        .texto3 {
+                                                                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                                                font-size: 15px;
+                                                                text-align: center;
+
+                                                        }
+                                }
+        }
+
+
+
+
+
+
+
+
+}
+/* FIN DE LA PAG DE SERVICIOS  */

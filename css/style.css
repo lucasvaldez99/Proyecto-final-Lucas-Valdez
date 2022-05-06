@@ -260,4 +260,35 @@ footer .logo .redesli li a {
   display: inline;
 }
 
+/* pagina de SERVICIOS */
+main .primercontenedor {
+  text-align: center;
+}
+main .primercontenedor .puerta {
+  border-top: brown solid 2px;
+}
+main .segundoh2 {
+  text-align: center;
+  margin: 5rem;
+}
+main .segundocontenedor {
+  display: flex;
+}
+main .segundocontenedor .contenedordepasos {
+  margin-bottom: 10rem;
+}
+main .segundocontenedor .contenedordepasos .imagenespasoapaso {
+  width: 50%;
+}
+main .segundocontenedor .contenedordepasos .h3numeracion {
+  text-align: center;
+}
+main .segundocontenedor .contenedordepasos .texto3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* FIN DE LA PAG DE SERVICIOS  */
+
 /*# sourceMappingURL=style.css.map */

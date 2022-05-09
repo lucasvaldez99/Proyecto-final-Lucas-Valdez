@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 body {
-  background-color: #FFEF82;
+  background: rgb(113, 116, 50);
+  background: linear-gradient(180deg, rgb(113, 116, 50) 0%, rgb(255, 239, 130) 76%, rgb(255, 255, 255) 100%);
 }
 
 * {
@@ -18,8 +19,9 @@ body {
 }
 
 header {
-  background-color: #717432;
-  border-bottom: #8f4929 solid 2px;
+  background: rgb(42, 97, 16);
+  background: radial-gradient(circle, rgb(42, 97, 16) 0%, rgba(131, 223, 8, 0.6418942577) 100%);
+  border-bottom: solid 2px brown;
   /* media para el header */
 }
 header .divprincipal {
@@ -68,6 +70,7 @@ header .divprincipal .tituloprincipal h1 span:hover {
   text-decoration: none;
   border-left: 4px solid #dfe31d;
   margin-right: 5px;
+  border-radius: 5px;
 }
 #menu ul li a:hover {
   background-color: #f3ecec;
@@ -91,9 +94,9 @@ header .divprincipal .tituloprincipal h1 span:hover {
   transform: scale(1.1);
   transition: all 2s;
 }
-.imagenesprincipales .imagenx3 .imagenprinci .textimg {
+.imagenesprincipales .imagenx3 .textimg {
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -103,15 +106,15 @@ header .divprincipal .tituloprincipal h1 span:hover {
   font-size: 220%;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  border-radius: 7px;
 }
 .servicioscontainer .divcontenedordesectores {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  justify-content: center;
 }
 .servicioscontainer .divcontenedordesectores .sector1 {
-  width: 90%;
+  width: auto;
   height: 300%;
   display: flex;
   justify-content: center;
@@ -144,6 +147,7 @@ header .divprincipal .tituloprincipal h1 span:hover {
 #Tienda .secciontienda .imagentienda {
   width: 40%;
   height: auto;
+  margin-bottom: 2rem;
 }
 #Tienda .secciontienda .infotienda p {
   font-family: "Roboto", sans-serif;
@@ -166,16 +170,19 @@ header .divprincipal .tituloprincipal h1 span:hover {
   width: 200px;
   height: 70px;
   border-radius: 30px;
-  font-size: 1.2rem;
-  font-weight: 900;
   background: #000;
-  color: #fff;
   border: 1px solid;
   transition: all 1s ease;
   border: 4px solid lightblue;
   text-decoration: none;
   transition-delay: 0.2s;
   cursor: pointer;
+}
+#Tienda .findetienda .cajaderedes .botoni1 a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
 }
 #Tienda .findetienda .cajaderedes .botoni1:hover {
   box-shadow: 0 0 20px #9527b4, 0 0 40px #00E4B6;
@@ -189,15 +196,18 @@ header .divprincipal .tituloprincipal h1 span:hover {
   width: 200px;
   height: 70px;
   border-radius: 45px;
-  font-size: 1.2rem;
-  font-weight: 900;
   background: #000;
-  color: #fff;
   border: 1px solid;
   transition: all 1s ease;
   border: 4px solid lightblue;
   transition-delay: 0.2s;
   cursor: pointer;
+}
+#Tienda .findetienda .cajaderedes .botonf1 a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
 }
 #Tienda .findetienda .cajaderedes .botonf1:hover {
   box-shadow: 0 0 20px #1d69c6, 0 0 40px #00E4B6;
@@ -224,16 +234,19 @@ footer .dudas {
   flex-wrap: wrap;
 }
 footer .dudas p {
-  font-size: medium;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 footer .dudas .wp {
-  background-color: #29a962;
+  background-color: #176b3d;
   text-decoration: none;
   height: 25px;
   width: 80px;
   text-align: center;
   border: #111010 solid 1px;
   margin-bottom: 5rem;
+  border-radius: 5px;
+  color: #fff;
 }
 footer .logo:hover span:nth-child(1) {
   margin-left: 20px;
@@ -247,17 +260,25 @@ footer .logo span:hover {
   /* sombre horizontal - vertical - blur - color */
   text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
-footer .logo .seguinos {
-  font-size: 5rem;
+footer .seguinos p {
+  font-size: 24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-footer .logo .redesli {
+footer .redesli {
   bottom: 26px;
 }
-footer .logo .redesli li a {
+footer .redesli li a {
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
+  background-color: oldlace;
+  color: #111010;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 3px;
+}
+footer .redesli li a:hover {
+  border: #111010 solid 2px;
 }
 
 /* pagina de SERVICIOS */
@@ -278,7 +299,7 @@ main .segundocontenedor .contenedordepasos {
   margin-bottom: 10rem;
 }
 main .segundocontenedor .contenedordepasos .imagenespasoapaso {
-  width: 50%;
+  width: 20rem;
 }
 main .segundocontenedor .contenedordepasos .h3numeracion {
   text-align: center;
@@ -290,5 +311,39 @@ main .segundocontenedor .contenedordepasos .texto3 {
 }
 
 /* FIN DE LA PAG DE SERVICIOS  */
+main section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main section .card {
+  margin: 2px solid grey;
+  width: 15rem;
+  height: 20rem;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: rgb(166, 104, 38);
+  background: radial-gradient(circle, rgb(166, 104, 38) 0%, rgb(32, 128, 43) 100%);
+}
+main section .card img {
+  width: 15rem;
+  height: 15rem;
+}
+main section .card img:hover {
+  transform: scale(2);
+}
+main section .card h3 {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  border: solid grey 2px;
+  border-radius: 10px;
+  align-items: flex-end;
+  background-color: beige;
+}
 
 /*# sourceMappingURL=style.css.map */

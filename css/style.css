@@ -311,6 +311,15 @@ main .segundocontenedor .contenedordepasos .texto3 {
 }
 
 /* FIN DE LA PAG DE SERVICIOS  */
+main hgroup .catalogo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline brown;
+  font-style: italic;
+}
+main hgroup h2 {
+  margin-left: 3rem;
+}
 main section {
   display: flex;
   flex-direction: row;
@@ -333,7 +342,8 @@ main section .card img {
   height: 15rem;
 }
 main section .card img:hover {
-  transform: scale(2);
+  transform: scale(1.5);
+  transition: 1s;
 }
 main section .card h3 {
   font-size: 15px;
@@ -344,6 +354,10 @@ main section .card h3 {
   border-radius: 10px;
   align-items: flex-end;
   background-color: beige;
+}
+main section .card h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(27, 27, 126, 0.704);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,12 +5,14 @@ main {
                     font-family: Arial, Helvetica, sans-serif;
                     text-decoration: underline (brown);
                     font-style: initial;
+                    font: $title-font;
                     
 
 
                 }
                 h2{
                     margin-left: 3rem;
+                    font: $subtle-font;
 
                 }
         }

@@ -1,4 +1,9 @@
 footer {
+    
+    
+    
+
+
         .dudas{
             border-bottom: 3px solid grey;
             font-family: Arial, Helvetica, sans-serif;
@@ -20,6 +25,9 @@ footer {
                     border-radius: 5px;       
                     color: #fff;       
                 }
+
+                
+
         }
         .logo{
             &:hover span:nth-child(1){
@@ -54,7 +62,8 @@ footer {
                             font-size: 23px;
                             font-family: Arial, Helvetica, sans-serif;
                             display: inline;
-                            background-color: oldlace;
+                            background: rgb(195,126,29);
+background: radial-gradient(circle, rgba(195,126,29,1) 0%, rgba(223,8,103,0.6418942577030813) 100%);
                             color: #111010;
                             border-radius: 10px;
                             text-decoration: none;

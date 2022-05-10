@@ -361,4 +361,35 @@ main section .card h4 {
   color: rgba(27, 27, 126, 0.704);
 }
 
+main {
+  margin: 2rem 5rem 5rem 5rem;
+}
+main img {
+  width: 50rem;
+  margin-bottom: 2rem;
+  border: solid 5px burlywood;
+}
+main article h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: blueviolet;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+main article h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+main article p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  border: solid grey 2px;
+  border-radius: 4px;
+}
+main article p:hover {
+  background-color: antiquewhite;
+  transition: 1s;
+}
+
 /*# sourceMappingURL=style.css.map */

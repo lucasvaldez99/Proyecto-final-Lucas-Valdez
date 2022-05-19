@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Mono&display=swap");
 body {
-  background: rgb(113, 116, 50);
-  background: linear-gradient(180deg, rgb(113, 116, 50) 0%, rgb(255, 239, 130) 76%, rgb(255, 255, 255) 100%);
+  background: rgb(247, 247, 247);
+  background: linear-gradient(180deg, rgb(247, 247, 247) 0%, rgba(0, 0, 0, 0.7791491597) 16%, rgb(0, 0, 0) 100%);
 }
 
 * {
@@ -19,9 +20,9 @@ body {
 }
 
 header {
-  background: rgb(113, 116, 50);
-  background: radial-gradient(circle, rgb(113, 116, 50) 0%, rgb(75, 75, 75) 100%);
-  border-bottom: solid 4px rgba(94, 99, 44, 0.43);
+  background: rgb(57, 57, 57);
+  background: linear-gradient(266deg, rgb(57, 57, 57) 9%, rgba(255, 255, 255, 0.8519782913) 51%, rgb(57, 57, 57) 91%);
+  border-bottom: solid 4px rgba(0, 0, 0, 0.323);
   /* media para el header */
 }
 header .divprincipal {
@@ -63,20 +64,23 @@ header .divprincipal .tituloprincipal h1 span:hover {
 }
 #menu ul li {
   display: inline-block;
-}
-#menu ul li a {
-  background-color: #111010;
-  color: #f3ecec;
-  text-decoration: none;
   border-left: 4px solid #dfe31d;
   margin-right: 5px;
   border-radius: 5px;
+  background-color: #111010;
 }
-#menu ul li a:hover {
+#menu ul li:hover {
   background-color: #f3ecec;
-  color: #111010;
   transition: 1s;
   text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+#menu ul li a {
+  color: #f3ecec;
+  text-decoration: none;
+  margin-left: 2px;
+}
+#menu ul li a:hover {
+  color: #111010;
 }
 
 .imagenesprincipales {
@@ -92,12 +96,13 @@ header .divprincipal .tituloprincipal h1 span:hover {
 }
 .imagenesprincipales .imagenx3 .imagenprinci:hover {
   transform: scale(1.1);
-  transition: all 2s;
+  transition: all 0.5s;
 }
 .imagenesprincipales .imagenx3 .textimg {
   text-align: center;
   font-size: 18px;
   font-family: "Roboto Mono", monospace;
+  color: #fff;
 }
 
 /*seccion de soluciones*/
@@ -124,11 +129,13 @@ header .divprincipal .tituloprincipal h1 span:hover {
 }
 .servicioscontainer .divcontenedordesectores .sector1 .titulo1 {
   font-size: 20px;
+  color: #fff;
 }
 .servicioscontainer .divcontenedordesectores .sector1 .textologo {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+  color: #fff;
 }
 .servicioscontainer .divcontenedordesectores .sector1 .logito1 {
   width: 13rem;
@@ -154,6 +161,7 @@ header .divprincipal .tituloprincipal h1 span:hover {
   font-size: 23px;
   border: solid green 3px;
   text-align: center;
+  color: #fff;
 }
 #Tienda .findetienda {
   display: grid;
@@ -220,6 +228,7 @@ header .divprincipal .tituloprincipal h1 span:hover {
   padding: 0 5% 0 5%;
   text-align: center;
   font-size: 2rem;
+  color: #fff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 #Tienda .findetienda .imageninfo {
@@ -228,14 +237,15 @@ header .divprincipal .tituloprincipal h1 span:hover {
 
 footer .dudas {
   border-bottom: 3px solid grey;
-  font-family: Arial, Helvetica, sans-serif;
+  font: "IBM Plex Mono", monospace;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 footer .dudas p {
   font-size: 24px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  font: "IBM Plex Mono", monospace;
 }
 footer .dudas .wp {
   background-color: #176b3d;
@@ -261,7 +271,9 @@ footer .logo span:hover {
   text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 footer .seguinos p {
+  color: #fff;
   font-size: 24px;
+  font: "IBM Plex Mono", monospace;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 footer .redesli {
@@ -269,14 +281,15 @@ footer .redesli {
 }
 footer .redesli li a {
   font-size: 23px;
-  font-family: Arial, Helvetica, sans-serif;
+  font: "IBM Plex Mono", monospace;
   display: inline;
   background: rgb(195, 126, 29);
   background: radial-gradient(circle, rgb(195, 126, 29) 0%, rgba(223, 8, 103, 0.6418942577) 100%);
   color: #111010;
   border-radius: 10px;
   text-decoration: none;
-  padding: 3px;
+  padding: 1px;
+  margin: 2px;
 }
 footer .redesli li a:hover {
   border: #111010 solid 2px;
@@ -322,13 +335,16 @@ main .segundocontenedor .contenedordepasos .texto3 {
 main hgroup .catalogo {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: underline brown;
+  text-decoration: underline rgb(25, 95, 182);
   font-style: initial;
   font: 3rem;
+  font: "Roboto Mono", monospace;
 }
 main hgroup h2 {
   margin-left: 3rem;
   font: 2rem;
+  font: "Roboto Mono", monospace;
+  color: black;
 }
 main section {
   display: flex;
@@ -338,6 +354,7 @@ main section {
   justify-content: center;
 }
 main section .card {
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
   margin: 2px solid grey;
   width: 15rem;
   height: 20rem;
@@ -345,7 +362,7 @@ main section .card {
   overflow: hidden;
   border-radius: 5px;
   background: rgb(166, 104, 38);
-  background: radial-gradient(circle, rgb(166, 104, 38) 0%, rgb(32, 128, 43) 100%);
+  background: radial-gradient(circle, rgb(166, 104, 38) 0%, rgb(25, 95, 182) 100%);
 }
 main section .card img {
   width: 15rem;
@@ -367,7 +384,7 @@ main section .card h3 {
 }
 main section .card h4 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgba(27, 27, 126, 0.704);
+  color: rgba(255, 255, 255, 0.704);
 }
 
 .novedades {
@@ -408,6 +425,14 @@ main section .card h4 {
   border-radius: 3px;
   padding: 5px;
   background-color: darkolivegreen;
+}
+
+.contenedordewp {
+  display: block;
+}
+.contenedordewp i {
+  font-size: 3rem;
+  color: darkgreen;
 }
 
 /*# sourceMappingURL=style.css.map */

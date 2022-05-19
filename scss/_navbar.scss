@@ -5,21 +5,32 @@
             padding: 0;
             li {
                     display: inline-block;
-                            a{
-                                    background-color: #111010;
-                                    color: #f3ecec;
-                                    text-decoration: none;
-                                    border-left: 4px solid #dfe31d;
+                    border-left: 4px solid #dfe31d;
                                     margin-right: 5px;
                                     border-radius: 5px;
+                                    background-color: #111010;
 
                                     &:hover {
-                                            background-color: #f3ecec;
+                                        background-color: #f3ecec;
+                                        
+                                        transition: 1s;
+                                        text-shadow: 0 0 100px #fff,
+                                                    0 0 20px #fff,
+                                                    0 0 40px #fff;
+                                }
+
+
+                            a{
+                                    
+                                    color: #f3ecec;
+                                    text-decoration: none;
+                                    margin-left: 2px;
+                                    
+
+                                    &:hover {
+                                            
                                             color: #111010;
-                                            transition: 1s;
-                                            text-shadow: 0 0 100px #fff,
-                                                        0 0 20px #fff,
-                                                        0 0 40px #fff;
+                                            
                                     }
                             
 

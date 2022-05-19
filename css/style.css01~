@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Mono&display=swap");
+body {
+  background: rgb(247, 247, 247);
+  background: linear-gradient(180deg, rgb(247, 247, 247) 0%, rgba(0, 0, 0, 0.7791491597) 16%, rgb(0, 0, 0) 100%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*google fonts*/
+.supercontenedor {
+  padding: 0;
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+header {
+  background: rgb(113, 116, 50);
+  background: radial-gradient(circle, rgb(113, 116, 50) 0%, rgb(75, 75, 75) 100%);
+  border-bottom: solid 4px rgba(94, 99, 44, 0.43);
+  /* media para el header */
+}
+header .divprincipal {
+  z-index: 3;
+}
+header .divprincipal .tituloprincipal {
+  display: block;
+}
+header .divprincipal .tituloprincipal h1 {
+  color: rgb(25, 23, 23);
+  font-size: 40px;
+}
+header .divprincipal .tituloprincipal h1:hover span:nth-child(1) {
+  margin-left: 20px;
+}
+header .divprincipal .tituloprincipal h1 span {
+  transition: 0.5s linear;
+}
+header .divprincipal .tituloprincipal h1 span:hover {
+  margin-right: 8px;
+  color: #fff;
+  /* sombre horizontal - vertical - blur - color */
+  text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+@media screen and (max-width: 410px) {
+  header .tituloprincipal {
+    background-color: rgb(208, 226, 43);
+  }
+  header #menu {
+    position: sticky;
+    top: 0;
+  }
+}
+
+#menu ul {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  background-color: #111010;
+  color: #f3ecec;
+  text-decoration: none;
+  border-left: 4px solid #dfe31d;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+#menu ul li a:hover {
+  background-color: #f3ecec;
+  color: #111010;
+  transition: 1s;
+  text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.imagenesprincipales {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.imagenesprincipales .imagenx3 .imagenprinci {
+  width: 18rem;
+  height: 30rem;
+}
+.imagenesprincipales .imagenx3 .imagenprinci:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.imagenesprincipales .imagenx3 .textimg {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+}
+
+/*seccion de soluciones*/
+.servicioscontainer .titulosoluciones p {
+  background-color: #531d65;
+  font-size: 220%;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  border-radius: 7px;
+}
+.servicioscontainer .divcontenedordesectores {
+  display: flex;
+  flex-direction: column;
+}
+.servicioscontainer .divcontenedordesectores .sector1 {
+  width: auto;
+  height: 300%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-items: auto;
+}
+.servicioscontainer .divcontenedordesectores .sector1 .titulo1 {
+  font-size: 20px;
+}
+.servicioscontainer .divcontenedordesectores .sector1 .textologo {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.servicioscontainer .divcontenedordesectores .sector1 .logito1 {
+  width: 13rem;
+}
+
+/*seccion de las tiendas*/
+#Tienda .secciontienda {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  border-bottom: solid grey 2px;
+  padding-bottom: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#Tienda .secciontienda .imagentienda {
+  width: 40%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+#Tienda .secciontienda .infotienda p {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  border: solid green 3px;
+  text-align: center;
+}
+#Tienda .findetienda {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+#Tienda .findetienda .cajaderedes {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  margin-bottom: 3rem;
+}
+#Tienda .findetienda .cajaderedes .botoni1 {
+  width: 200px;
+  height: 70px;
+  border-radius: 30px;
+  background: #000;
+  border: 1px solid;
+  transition: all 1s ease;
+  border: 4px solid lightblue;
+  text-decoration: none;
+  transition-delay: 0.2s;
+  cursor: pointer;
+}
+#Tienda .findetienda .cajaderedes .botoni1 a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+}
+#Tienda .findetienda .cajaderedes .botoni1:hover {
+  box-shadow: 0 0 20px #9527b4, 0 0 40px #00E4B6;
+  border: 4px solid #b5a52b;
+  background: #b72fc1;
+  color: #000;
+  transition: box-shadow 7s, border 3s, background 3s, color 3s;
+}
+#Tienda .findetienda .cajaderedes .botonf1 {
+  text-decoration: none;
+  width: 200px;
+  height: 70px;
+  border-radius: 45px;
+  background: #000;
+  border: 1px solid;
+  transition: all 1s ease;
+  border: 4px solid lightblue;
+  transition-delay: 0.2s;
+  cursor: pointer;
+}
+#Tienda .findetienda .cajaderedes .botonf1 a {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+}
+#Tienda .findetienda .cajaderedes .botonf1:hover {
+  box-shadow: 0 0 20px #1d69c6, 0 0 40px #00E4B6;
+  border: 4px solid #1d69c6;
+  background: #1d69c6;
+  color: #000;
+  transition: box-shadow 7s, border 3s, background 3s, color 3s;
+}
+#Tienda .findetienda p {
+  padding: 0 5% 0 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#Tienda .findetienda .imageninfo {
+  width: 10rem;
+}
+
+footer .dudas {
+  border-bottom: 3px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .dudas p {
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer .dudas .wp {
+  background-color: #176b3d;
+  text-decoration: none;
+  height: 25px;
+  width: 80px;
+  text-align: center;
+  border: #111010 solid 1px;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+  color: #fff;
+}
+footer .logo:hover span:nth-child(1) {
+  margin-left: 20px;
+}
+footer .logo span {
+  transition: 0.5s linear;
+}
+footer .logo span:hover {
+  margin-right: 8px;
+  color: #fff;
+  /* sombre horizontal - vertical - blur - color */
+  text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+footer .seguinos p {
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer .redesli {
+  bottom: 26px;
+}
+footer .redesli li a {
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  background: rgb(195, 126, 29);
+  background: radial-gradient(circle, rgb(195, 126, 29) 0%, rgba(223, 8, 103, 0.6418942577) 100%);
+  color: #111010;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 3px;
+}
+footer .redesli li a:hover {
+  border: #111010 solid 2px;
+}
+
+/* pagina de SERVICIOS */
+main .primercontenedor {
+  text-align: center;
+}
+main .primercontenedor .puerta {
+  border-top: brown solid 2px;
+}
+main .primercontenedor h2 {
+  font: 3rem;
+}
+main .primercontenedor p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .segundoh2 {
+  text-align: center;
+  margin: 5rem;
+  font: 2rem;
+}
+main .segundocontenedor {
+  display: flex;
+}
+main .segundocontenedor .contenedordepasos {
+  margin-bottom: 10rem;
+}
+main .segundocontenedor .contenedordepasos .imagenespasoapaso {
+  width: 20rem;
+}
+main .segundocontenedor .contenedordepasos .h3numeracion {
+  text-align: center;
+}
+main .segundocontenedor .contenedordepasos .texto3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* FIN DE LA PAG DE SERVICIOS  */
+main hgroup .catalogo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline brown;
+  font-style: initial;
+  font: 3rem;
+}
+main hgroup h2 {
+  margin-left: 3rem;
+  font: 2rem;
+}
+main section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main section .card {
+  margin: 2px solid grey;
+  width: 15rem;
+  height: 20rem;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: rgb(166, 104, 38);
+  background: radial-gradient(circle, rgb(166, 104, 38) 0%, rgb(32, 128, 43) 100%);
+}
+main section .card img {
+  width: 15rem;
+  height: 15rem;
+}
+main section .card img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+main section .card h3 {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  border: solid grey 2px;
+  border-radius: 10px;
+  align-items: flex-end;
+  background-color: beige;
+}
+main section .card h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(27, 27, 126, 0.704);
+}
+
+.novedades {
+  margin: 2rem 5rem 5rem 5rem;
+}
+.novedades img {
+  width: 50rem;
+  margin-bottom: 2rem;
+  border: solid 5px burlywood;
+}
+.novedades article h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: blueviolet;
+  font: 3rem;
+  text-decoration: underline;
+}
+.novedades article h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.novedades article p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  border: solid grey 2px;
+  border-radius: 4px;
+}
+.novedades article p:hover {
+  background-color: antiquewhite;
+  transition: 1s;
+}
+
+.formulario {
+  margin: 5rem 20rem;
+  width: 50%;
+  border: solid 3px white;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: darkolivegreen;
+}
+
+.contenedordewp {
+  display: block;
+}
+.contenedordewp i {
+  font-size: 3rem;
+  color: darkgreen;
+}
+
+/*# sourceMappingURL=style.css01~.map */

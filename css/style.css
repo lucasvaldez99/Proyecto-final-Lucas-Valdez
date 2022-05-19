@@ -48,9 +48,6 @@ header .divprincipal .tituloprincipal h1 span:hover {
   text-shadow: 0 0 100px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 @media screen and (max-width: 410px) {
-  header .tituloprincipal {
-    background-color: rgb(208, 226, 43);
-  }
   header #menu {
     position: sticky;
     top: 0;
@@ -391,9 +388,8 @@ main section .card h4 {
   margin: 2rem 5rem 5rem 5rem;
 }
 .novedades img {
-  width: 50rem;
+  width: 50%;
   margin-bottom: 2rem;
-  border: solid 5px burlywood;
 }
 .novedades article h1 {
   font-family: "Courier New", Courier, monospace;

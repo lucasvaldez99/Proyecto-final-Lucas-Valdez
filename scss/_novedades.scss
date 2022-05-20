@@ -22,29 +22,26 @@
         article{
 
                     h1{
-                        font-family: 'Courier New', Courier, monospace;
+                        font:$title-font-family;
                         color: blueviolet;
                         font: $title-font;
                         text-decoration: underline;
                     }
 
                     h2{
-                        font-family: Verdana, Geneva, Tahoma, sans-serif;
-                        font-size: 2rem;
+                        font:$title-font-family;
+                        font:$subtle-font;
                         background-color: antiquewhite;
                         border-radius: 5px;
 
                     }
                     p{
-                        font-family: 'Times New Roman', Times, serif;
+                        font :$paraghap-font-family;
                         font-size: 20px;
-                        border: solid grey 2px;
+                        background-color: antiquewhite;
                         border-radius: 4px;
 
-                        &:hover{
-                            background-color: antiquewhite;
-                            transition: 1s;
-                        }
+                        
 
                     }
         }

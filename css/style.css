@@ -388,8 +388,18 @@ main section .card h4 {
   margin: 2rem 5rem 5rem 5rem;
 }
 .novedades img {
-  width: 50%;
+  width: 30rem;
   margin-bottom: 2rem;
+}
+@media screen and (max-width: 790px) {
+  .novedades img {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .novedades img {
+    width: 10rem;
+  }
 }
 .novedades article h1 {
   font-family: "Courier New", Courier, monospace;

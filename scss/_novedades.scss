@@ -1,13 +1,24 @@
 .novedades{
     margin: 2rem 5rem 5rem 5rem;
         img{
-            width: 50%;
-            margin-bottom: 2rem;
-            
+            width: 30rem;
 
+            margin-bottom: 2rem;
 
         }
-
+        @media screen and (max-width: 790px) {
+        
+            img{
+                width: 20rem;
+            }
+        }
+        @media screen and (max-width: 450px) {
+        
+            img{
+                width: 10rem;
+            }
+        }
+        
         article{
 
                     h1{

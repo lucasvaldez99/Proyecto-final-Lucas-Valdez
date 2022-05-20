@@ -398,7 +398,7 @@ main section .card h4 {
 }
 @media screen and (max-width: 450px) {
   .novedades img {
-    width: 10rem;
+    width: 19rem;
   }
 }
 .novedades article h1 {

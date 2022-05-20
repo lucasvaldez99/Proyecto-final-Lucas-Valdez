@@ -4,15 +4,17 @@ main{
                 
                 text-align: center;
                                 .puerta{
-                                        border-top: brown solid 2px;
+                                        
 
                                 }
                                 h2{
                                         font: $title-font;
-
+                                        font: $title-font-family;
+                                        color: $color-font-general;
                                 }
                                 p{
-                                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                        font:$paraghap-font-family;
+                                        color: $color-font-general;
 
                                 }
         }
@@ -21,6 +23,8 @@ main{
                 text-align: center;
                 margin: 5rem;
                 font: $subtle-font;
+
+                color: $color-font-general;
 
         }
 
@@ -35,12 +39,14 @@ main{
                                                         }
                                                         .h3numeracion {
                                                                 text-align: center;
+                                                                color: $color-font-general;
 
                                                         }
                                                         .texto3 {
-                                                                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                                                font:$paraghap-font-family;
                                                                 font-size: 15px;
                                                                 text-align: center;
+                                                                color: $color-font-general;
 
                                                         }
                                 }

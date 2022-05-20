@@ -296,19 +296,20 @@ footer .redesli li a:hover {
 main .primercontenedor {
   text-align: center;
 }
-main .primercontenedor .puerta {
-  border-top: brown solid 2px;
-}
 main .primercontenedor h2 {
   font: 4rem;
+  font: "Roboto Mono", monospace;
+  color: #fff;
 }
 main .primercontenedor p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font: "IBM Plex Mono", monospace;
+  color: #fff;
 }
 main .segundoh2 {
   text-align: center;
   margin: 5rem;
   font: 2rem;
+  color: #fff;
 }
 main .segundocontenedor {
   display: flex;
@@ -321,11 +322,13 @@ main .segundocontenedor .contenedordepasos .imagenespasoapaso {
 }
 main .segundocontenedor .contenedordepasos .h3numeracion {
   text-align: center;
+  color: #fff;
 }
 main .segundocontenedor .contenedordepasos .texto3 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font: "IBM Plex Mono", monospace;
   font-size: 15px;
   text-align: center;
+  color: #fff;
 }
 
 /* FIN DE LA PAG DE SERVICIOS  */

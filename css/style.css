@@ -313,22 +313,25 @@ main .segundoh2 {
 }
 main .segundocontenedor {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 main .segundocontenedor .contenedordepasos {
   margin-bottom: 10rem;
 }
 main .segundocontenedor .contenedordepasos .imagenespasoapaso {
-  width: 20rem;
+  width: 10rem;
 }
 main .segundocontenedor .contenedordepasos .h3numeracion {
   text-align: center;
   color: #fff;
 }
-main .segundocontenedor .contenedordepasos .texto3 {
+main .segundocontenedor .contenedordepasos p {
   font: "IBM Plex Mono", monospace;
   font-size: 15px;
   text-align: center;
-  color: #fff;
+  color: antiquewhite;
 }
 
 /* FIN DE LA PAG DE SERVICIOS  */

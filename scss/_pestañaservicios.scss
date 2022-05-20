@@ -1,12 +1,10 @@
 /* pagina de SERVICIOS */
 main{
+        
         .primercontenedor {
                 
                 text-align: center;
-                                .puerta{
-                                        
-
-                                }
+                                
                                 h2{
                                         font: $title-font;
                                         font: $title-font-family;
@@ -31,10 +29,13 @@ main{
 
         .segundocontenedor {
                 display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                                 .contenedordepasos {
                                         margin-bottom: 10rem;
                                                         .imagenespasoapaso {
-                                                                width: 20rem;
+                                                                width: 10rem;
 
                                                         }
                                                         .h3numeracion {
@@ -42,11 +43,11 @@ main{
                                                                 color: $color-font-general;
 
                                                         }
-                                                        .texto3 {
+                                                        p {
                                                                 font:$paraghap-font-family;
                                                                 font-size: 15px;
                                                                 text-align: center;
-                                                                color: $color-font-general;
+                                                                color: antiquewhite;
 
                                                         }
                                 }

@@ -347,12 +347,14 @@ main hgroup .catalogo {
   font-style: initial;
   font: 4rem;
   font: "Roboto Mono", monospace;
+  color: #fff;
 }
 main hgroup h2 {
   margin-left: 3rem;
   font: 2rem;
   font: "Roboto Mono", monospace;
-  color: black;
+  color: #fff;
+  text-align: center;
 }
 main section {
   display: flex;
@@ -371,10 +373,12 @@ main section .card {
   border-radius: 5px;
   background: rgb(166, 104, 38);
   background: radial-gradient(circle, rgb(166, 104, 38) 0%, rgb(25, 95, 182) 100%);
+  position: relative;
 }
 main section .card img {
   width: 15rem;
   height: 15rem;
+  position: absolute;
 }
 main section .card img:hover {
   transform: scale(1.5);

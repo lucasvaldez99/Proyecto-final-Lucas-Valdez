@@ -7,6 +7,7 @@ main {
                     font-style: initial;
                     font: $title-font;
                     font: $title-font-family;
+                    color: $color-font-general;
                     
 
 
@@ -15,7 +16,8 @@ main {
                     margin-left: 3rem;
                     font: $subtle-font;
                     font: $title-font-family;
-                    color: black;
+                    color: $color-font-general;
+                    text-align: center;
 
                 }
         }
@@ -40,11 +42,13 @@ main {
                         border-radius: 5px;
                         background: rgb(166,104,38);
                         background: radial-gradient(circle, rgba(166,104,38,1) 0%, rgb(25, 95, 182) 100%);
+                        position: relative;
 
                         
                             img{
                                 width: 15rem;
                                 height: 15rem;
+                                position: absolute;
 
                                 &:hover{
                                     transform: scale(1.5); 

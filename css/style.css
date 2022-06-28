@@ -379,8 +379,8 @@ main section .card .conteiner-img {
   height: 15rem;
 }
 main section .card .conteiner-img img {
-  width: auto;
-  height: auto;
+  width: 15rem;
+  height: 15rem;
 }
 main section .card .conteiner-img img:hover {
   transform: scale(1.5);

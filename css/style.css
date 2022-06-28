@@ -389,7 +389,6 @@ main section .card .conteiner-img img:hover {
 main section .card img {
   width: 15rem;
   height: 15rem;
-  position: absolute;
 }
 main section .card img:hover {
   transform: scale(1.5);

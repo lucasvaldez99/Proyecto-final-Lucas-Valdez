@@ -386,14 +386,6 @@ main section .card .conteiner-img img:hover {
   transform: scale(1.5);
   transition: 1s;
 }
-main section .card img {
-  width: 15rem;
-  height: 15rem;
-}
-main section .card img:hover {
-  transform: scale(1.5);
-  transition: 1s;
-}
 main section .card h3 {
   font-size: 15px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

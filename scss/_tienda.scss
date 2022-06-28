@@ -44,11 +44,13 @@ main {
                         background: radial-gradient(circle, rgba(166,104,38,1) 0%, rgb(25, 95, 182) 100%);
                         
 
-                        
-                            img{
+                        .conteiner-img{
                                 width: 15rem;
                                 height: 15rem;
-                                position: absolute;
+                            img{
+                                width: auto;
+                                height: auto;
+                                
 
                                 &:hover{
                                     transform: scale(1.5); 
@@ -56,11 +58,19 @@ main {
                                 }
                                 
                             }
+                        }
+                        img{
+                            width: 15rem;
+                            height: 15rem;
+                            position: absolute;
+
+                            &:hover{
+                                transform: scale(1.5); 
+                                transition: 1s;
+                            }
+                            
+                        }
                         
-                            
-                            
-                                
-                    
                         
                             h3{
                                 font-size: 15px;

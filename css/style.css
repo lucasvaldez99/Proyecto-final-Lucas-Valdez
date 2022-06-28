@@ -374,6 +374,18 @@ main section .card {
   background: rgb(166, 104, 38);
   background: radial-gradient(circle, rgb(166, 104, 38) 0%, rgb(25, 95, 182) 100%);
 }
+main section .card .conteiner-img {
+  width: 15rem;
+  height: 15rem;
+}
+main section .card .conteiner-img img {
+  width: auto;
+  height: auto;
+}
+main section .card .conteiner-img img:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
 main section .card img {
   width: 15rem;
   height: 15rem;

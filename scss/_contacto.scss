@@ -1,8 +1,16 @@
 .formulario{
-            
-            border: solid 3px white;
-            border-radius: 3px;
-            padding: 5px;
-            background-color: darkolivegreen;
-            
+        width:700px;
+        max-width:100%;
+        margin:auto;
+        margin-top:30px;
+        padding:20px;
+        background-color: rgb(156, 146, 136);
+        box-shadow:0 0 20px 1px;
+        position:relative;
+        
+        h1{
+                text-align: start;
+                font-size: 2rem;
+        }
+
 }
